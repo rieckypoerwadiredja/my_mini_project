@@ -26,12 +26,46 @@ besides that, the web is also equipped with a search that can make it easier for
 You can see the website at [GoVie](https://govie.netlify.app/)
 
 
-### Dependencies
+### Make with :
 
 * HTML
 * CSS
 * Javascipt
+* [API](https://developers.themoviedb.org/3)
 
 ```
 ./movie-app
+```
+
+<br>
+<br>
+
+## Project Contact-App (19 March 2022)
+<hr>
+<br>
+
+My project this time is a simple contacts repository. my project uses JSON as repository for additional contacts. the project is simple CRUD (Create, Read, Delete, Delete). This project was created as an exercise before learning more about databases, in this exercise, I understand the flow required to perform simple CRUD in a database. CRUD is also added with a data validation system so that data can be stored properly
+
+Apart from that using JSON is quite appropriate because I will study the MongoDB database which is a database without SQL. Databases without SQL offer a different form of database to SQL. SQL databases are relational databases that use 'relationships' (which are usually called tables) to store data and match that data using characteristics common to each data set. whereas No-SQL has unstructured data storage and retrieval, its data has a JSON-like form. This type of database can handle a large number of databases with dynamic schemas.
+
+### Make with :
+
+* HTML
+* CSS
+* Javascript
+* Node.JS
+* JSON
+
+<br>
+
+* [EJS](https://www.npmjs.com/package/ejs)
+* [Express](https://www.npmjs.com/package/express)
+* [express-ejs-layouts](https://www.npmjs.com/package/express-ejs-layouts)
+* [express-validator](https://www.npmjs.com/package/express-validator)
+* [nodemon](https://www.npmjs.com/package/nodemon)
+
+<br>
+
+```
+./contact-aplication
 ```
