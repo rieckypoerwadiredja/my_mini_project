@@ -1,0 +1,15 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "Learn Web Scraping I",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riecky",
+  "license": "MIT",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "puppeteer": "^10.4.0"
+  }
+}

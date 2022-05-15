@@ -72,3 +72,33 @@ You can see the website at [Contact-aplication](https://contact-aplication.herok
 ```
 ./contact-aplication
 ```
+
+<br>
+<br>
+
+## Project Web Scraping (15 May 2022)
+
+<hr>
+<br>
+
+After stopping studying because of the midterm exams, I went back to studying web programming. this time I learned about Web scraping. web scraping is a beneficial method in online business, whether it's for market research, competitor research, or finding leads. However, the benefits go beyond that.
+
+web scraping can "take" business competitor data as material for business evaluation. web scraping data can be used as a deep understanding of consumer needs. This helped me as an entrepreneur in analyzing competitors easily.
+
+However, web scraping also has drawbacks, I think web scraping results in the data obtained not always being neat. This is because the data is taken from HTML, which may include unwanted data. then it is necessary to update if there are changes to the website. and one more thing, namely that several sources state that using web scraping too often can block our computer's IP so that we cannot reaccess the website.
+
+### Make with :
+
+* Node.JS
+
+<br>
+
+* [csv-writer](https://www.npmjs.com/package/csv-writer)
+* [puppeteer](https://www.npmjs.com/package/puppeteer)
+
+<br>
+
+```
+./contact-aplication
+```
+
