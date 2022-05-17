@@ -1,0 +1,434 @@
+:root {
+    --bg-blue: #35c0f2;
+    --bg-orange: #f17243;
+    --bg-green: #14c357;
+    --bg-purple: #6349f6;
+}
+
+/* karna project akan diperbaiki kedepannya, 
+maka bagian profile hnya bagian tambahan saja*/
+
+.about-project {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: var(--f-family-desc);
+    background-color: #f5f7fb;
+}
+
+
+/* --------- project <- */
+.about-project .project-desc {
+    position: relative;
+    width: 70%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.about-project .project-desc section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 3% 0;
+}
+
+.project-desc ion-icon {
+    font-size: var(--f-size-title-2);
+}
+
+.project-desc h1 {
+    font-size: calc(var(--f-size-title-2)*.8);
+}
+
+.project-desc h3 {
+    font-size: calc(var(--f-size-title-2)*.5);
+    font-weight: 600;
+
+    margin: 2% 0;
+}
+
+
+.project-desc ul {
+    position: relative;
+    width: 100%;
+    padding: 2% 0;
+    height: 90px;
+    /* background-color: yellow; */
+}
+
+.project-desc li {
+    width: calc(100%/4);
+    height: 100%;
+    /* background-color: #ffffff; */
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: var(--f-size-desc);
+}
+
+
+
+
+.project-desc .contaner-cards {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+/* card */
+.project-desc .card {
+    position: relative;
+    width: 45%;
+    height: auto;
+    margin: 2% 0;
+    border-radius: 20px;
+    padding: 2% 5%;
+}
+
+.project-desc .date-start {
+    font-weight: 600;
+}
+
+.project-desc .card h4 {
+    font-size: calc(var(--f-size-title-2)*.55);
+}
+
+.project-desc .card p {
+    font-size: calc(var(--f-size-desc)*.9);
+    margin: 5% 0;
+    color: #8fa6af;
+    text-align: justify;
+}
+
+.project-desc .card label {
+    font-size: calc(var(--f-size-desc)*.9);
+    font-weight: 600;
+    color: #71838b;
+}
+
+/* next tools */
+.con-logo {
+    padding: 2% 4%;
+    border-radius: 5px;
+    color: #fff;
+    font-size: calc(var(--f-size-desc)*.8);
+}
+
+.project-desc .languages {
+    height: 10%;
+    font-weight: 500;
+    margin: 4% 0;
+    /* background-color: yellow; */
+}
+
+.project-desc .languages ion-icon {
+    font-size: calc(var(--f-size-desc)*1.5);
+}
+
+h3.title ion-icon,
+.link-project {
+    font-size: calc(var(--f-size-desc)*1.5);
+}
+
+.link-project {
+    margin-top: 4%;
+}
+
+
+
+
+/* progress-bar */
+.progress-bar {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 2% 0;
+}
+
+.progress-bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.progress-bar::after {
+    content: '80%';
+    position: absolute;
+    top: -350%;
+    right: 0;
+    font-size: calc(var(--f-size-desc)*.9);
+    font-weight: 600;
+    color: #71838b;
+}
+
+/* percent progress */
+
+.card:nth-child(1) .progress-bar::after {
+    content: '30%';
+}
+
+.card:nth-child(2) .progress-bar::after {
+    content: '10%';
+}
+
+.card:nth-child(3) .progress-bar::after,
+.card:nth-child(4) .progress-bar::after {
+    content: '0%';
+}
+
+/* color progress */
+.card:nth-child(1) .progress-bar::before {
+    width: 30%;
+    background-color: var(--bg-blue);
+}
+
+.card:nth-child(2) .progress-bar::before {
+    width: 10%;
+    background-color: var(--bg-orange);
+}
+
+.card:nth-child(3) .progress-bar::before {
+    width: 1%;
+    background-color: var(--bg-green);
+}
+
+.card:nth-child(4) .progress-bar::before {
+    width: 1%;
+    background-color: var(--bg-purple);
+}
+
+/* color card */
+
+.project-desc .card:nth-child(1) {
+    background-color: #d6f4ff;
+}
+
+.project-desc .card:nth-child(2) {
+    background-color: #ffe3d8;
+}
+
+.project-desc .card:nth-child(3) {
+    background-color: #cbf6dc;
+}
+
+.project-desc .card:nth-child(4) {
+    background-color: #e1dbff;
+}
+
+section a.link-project {
+    margin-top: 4%;
+    color: #000;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* profile */
+.about-project .profie-container {
+    position: relative;
+    width: 30%;
+    height: auto;
+    /* background-color: yellow; */
+}
+
+/* profile container */
+.about-project .profie-container .user-profile {
+    position: sticky;
+    top: 140px;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    /* background-color: red; */
+}
+
+.about-project h1.title-name {
+    font-family: var(--f-family-desc-2);
+    font-size: calc(var(--f-size-title-2)*.55);
+    margin-top: 10px;
+}
+
+.about-project p {
+    font-family: var(--f-family-desc);
+    font-size: var(--f-size-desc);
+}
+
+.about-project .sosmed-container {
+    margin-top: 10px;
+}
+
+.sosmed-container a.sosmed {
+    padding: 6px;
+    color: #000;
+    /* background-color: rebeccapurple; */
+}
+
+.sosmed-container a ion-icon {
+    font-size: calc(var(--f-size-desc)*2);
+    transition: .2s;
+}
+
+.sosmed-container a:nth-child(2):hover ion-icon {
+    color: #0e76a8;
+    transition: .2s;
+}
+
+.sosmed-container a:nth-child(3):hover ion-icon {
+    color: #cc2366;
+    transition: .2s;
+}
+
+
+.profie-container img {
+    position: relative;
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.profie-container .sosmed-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* color */
+
+.html {
+    color: #e34c26;
+}
+
+.css {
+    color: #264de4;
+}
+
+.js {
+    color: #474746;
+}
+
+.nodejs {
+    color: #68A063;
+}
+
+.figma {
+    color: #FF7262;
+}
+
+.vuejs {
+    color: #41B883;
+}
+
+.npm {
+    color: #CC3534;
+}
+
+.blue {
+    color: #35c0f2 !important;
+}
+
+.cloud {
+    color: rgb(151, 150, 150);
+}
+
+.monggodb {
+    color: #3FA037;
+}
+
+
+.orange {
+    color: #f17243 !important;
+}
+
+.green {
+    color: #14c357 !important;
+}
+
+.purple {
+    color: #6349f6 !important;
+}
+
+@media (max-width:992px) {
+    .about-project h1.title-name {
+        font-size: calc(var(--f-size-title-2)*.45);
+    }
+
+    .about-project p.desc {
+        font-size: calc(var(--f-size-desc)*.9);
+    }
+}
+
+@media (max-width:768px) {
+    .about-project .project-desc {
+        width: 100%;
+    }
+
+    .project-desc ul {
+        padding: 0 20%;
+    }
+
+
+    /* profile */
+    .about-project .profie-container {
+        width: 40%;
+    }
+
+    .about-project h1.title-name {
+        font-size: calc(var(--f-size-title-2)*.65);
+    }
+
+    .about-project p.desc {
+        font-size: calc(var(--f-size-desc)*1);
+    }
+
+    .about-project .profie-container {
+        width: 100%;
+        padding: 0 30%;
+    }
+}
+
+@media (max-width:550px) {
+    .profie-container {
+        width: 20%;
+        padding: 5% 15% !important;
+    }
+}
+
+@media (max-width:425px) {
+
+    .project-desc .contaner-cards {
+        padding: 0 !important;
+    }
+
+    .contaner-cards .card {
+        width: 49%;
+        margin: 2% .5% !important;
+        height: 45% !important;
+    }
+}
+
+@media (max-width:375px) {
+
+
+    .project-desc .contaner-cards {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
+    .contaner-cards .card {
+        width: 100%;
+    }
+
+}

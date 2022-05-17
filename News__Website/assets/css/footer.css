@@ -1,0 +1,144 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+}
+
+/* top footer */
+.top-footer,
+.bottom-footer {
+    position: relative;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.top-footer {
+    padding: var(--p-footer-top);
+    height: 60%;
+
+}
+
+.top-footer h3.title-content {
+    font-size: var(--f-size-title-2);
+    font-family: var(--f-family-title);
+    text-transform: capitalize;
+}
+
+.top-footer p {
+    color: var(--c-f-secondary-2);
+    font-family: var(--f-family-desc);
+    font-size: var(--f-size-desc);
+}
+
+/* bottom footer */
+.bottom-footer {
+    background-color: #fff;
+    color: #000;
+    height: 40%;
+}
+
+.bottom-footer .section {
+    position: relative;
+    width: 50%;
+    height: 100% !important;
+}
+
+.bottom-footer .section.left {
+    /* background-color: red; */
+}
+
+.bottom-footer .section.right {
+    /* background-color: blue; */
+}
+
+.bottom-footer .app-section {
+    height: 80%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.bottom-footer h3.title-content {
+    font-size: calc(var(--f-size-title-2)*.8);
+    font-family: var(--f-family-desc);
+    text-transform: capitalize;
+}
+
+/* btn */
+.bottom-footer .btn-secondary,
+.bottom-footer .btn-secondary ion-icon {
+    margin-right: 3%;
+}
+
+
+/* list */
+
+.bottom-footer .lists {
+    width: 100%;
+}
+
+.bottom-footer .lists ion-icon {
+    color: var(--c-f-secondary-2);
+}
+
+
+.bottom-footer .list a {
+    color: var(--c-f-secondary-2);
+    font-weight: 500;
+}
+
+.bottom-footer .title-list a {
+    color: #000;
+}
+
+@media(max-width:768px) {
+    .footer {
+        height: 450px;
+    }
+
+    .top-footer {
+        height: 50%;
+    }
+
+    .bottom-footer {
+        height: 50%;
+    }
+
+}
+
+@media (max-width:550px) {
+
+    .top-footer {
+        height: 40%;
+    }
+
+    .footer h3.title-content {
+        font-size: calc(var(--f-size-title-2)*.7);
+    }
+
+    .top-footer p {
+        font-size: calc(var(--f-size-desc)*.8);
+    }
+
+    .bottom-footer {
+        height: 60%;
+    }
+
+    .bottom-footer .list {
+        padding-left: 32%;
+    }
+
+    .bottom-footer .section {
+        width: 100%;
+        height: 50%;
+    }
+
+    .bottom-footer h3.title-content {
+        text-align: center;
+    }
+
+    .bottom-footer .list {
+        padding: 2% 5%;
+    }
+}

@@ -33,9 +33,7 @@ You can see the website at [GoVie](https://govie.netlify.app/)
 * Javascipt
 * [API](https://developers.themoviedb.org/3)
 
-```
-./movie-app
-```
+[<img align="left" src="https://img.shields.io/static/v1.svg?label=exercise&message=API JS&color=green"/>](./movie-app/)
 
 <br>
 <br>
@@ -69,9 +67,7 @@ You can see the website at [Contact-aplication](https://contact-aplication.herok
 
 <br>
 
-```
-./contact-aplication
-```
+[<img align="left" src="https://img.shields.io/static/v1.svg?label=exercise&message=JSON Data Base&color=green"/>](./contact-aplication)
 
 <br>
 <br>
@@ -98,7 +94,39 @@ However, web scraping also has drawbacks, I think web scraping results in the da
 
 <br>
 
-```
-./contact-aplication
-```
+[<img align="left" src="https://img.shields.io/static/v1.svg?label=exercise&message=Web Scraping&color=green"/>](./Web-Scraping)
 
+<br>
+<br>
+
+## Project Dicoding Bootscamp (30 April 2022 - 15 May 2022)
+
+<hr>
+<br>
+
+right after I finished my mid-semester exam, I continued my learning by attending a Bootcamp from the Indonesian tourism ministry. in Bootcamp this time I learned the basics of making a website.
+
+even though it's very simple because Bootcamp is intended for people who have never coded the web before, I still get new knowledge. it's a nice experience to be able to know web creation from another side that hasn't been explored before.
+
+I also invited one of my friends to participate in this Bootcamp. We learned a lot about some basic things that we might have missed because we were both self-taught. the most interesting thing was writing HTML 5 which turned out to be much more complex than some of the information I got before. then web storage is also one of my interests in continuing this project.
+
+I have an idea to continue the project by creating web news with API by utilizing web storage in its creation. This web storage will help the web in knowing the behavior of the user when entering the website, for that, I will need the Braind.JS library to perform user data processing. it will be useful to provide relevant and suitable news for users
+
+### Make with :
+
+* HTML
+* CSS
+* JS
+
+<br>
+
+* [csv-writer](https://www.npmjs.com/package/csv-writer)
+* [puppeteer](https://www.npmjs.com/package/puppeteer)
+
+<br>
+
+[<img align="left" src="https://img.shields.io/static/v1.svg?label=bootscamp&message=Web Scraping&color=green"/>](./News__Website/)
+
+<br>
+
+[<img align="left" src="https://img.shields.io/static/v1.svg?label=Real Project&message=On Point News&color=green"/>](https://github.com/rieckypoerwadiredja/onpoint_news)

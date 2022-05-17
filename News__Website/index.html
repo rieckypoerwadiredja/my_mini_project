@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---------------- web icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon/favicon-16x16.png">
+    <!-- ---------------- My CSS -->
+    <!-- global -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <!-- adsense -->
+    <link rel="stylesheet" href="./assets/css/adsense.css">
+    <!-- navigation -->
+    <link rel="stylesheet" href="./assets/css/navigation.css">
+    <!-- hero -->
+    <link rel="stylesheet" href="./assets/css/hero.css">
+    <!-- news content -->
+    <link rel="stylesheet" href="./assets/css/content.css">
+    <!-- footer -->
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <!-- tambahan sementara aja !!! -->
+    <link rel="stylesheet" href="./assets/css/tambahan-profile.css">
+
+    <!-- -------------- My JS -->
+    <!-- responsive layout -->
+    <script src="./assets/js/layout.js" defer></script>
+    <!-- install--Ion--Icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <title>Second News</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav padding">
+            <div class="top-nav flex-top-between">
+                <div class="info weather flex-center-left">
+                    <p class="sec-nav">New York</p>
+                    <p class="sec-nav">
+                        <ion-icon name="cloudy-night-outline"></ion-icon> 28°C
+                    </p>
+                </div>
+                <div class="info logo flex-center-center">
+                    <img src="./assets/img/logo/on-point.png" />
+                </div>
+                <div class="info time flex-center-right">
+                    <p class="sec-nav">Wednesday 16.09</p>
+                </div>
+            </div>
+            <ul class="bottom-nav menu-nav flex">
+                <li class="list-menu"><a class="flex-center-center" href="#">Home</a></li>
+                <li class="list-menu"><a class="flex-center-center" href="#">Trend</a></li>
+                <li class="list-menu"><a class="flex-center-center" href="#">Hot Topic</a></li>
+                <li class="list-menu"><a class="flex-center-center" href="#">Style</a></li>
+                <li style="position: relative;" class="list-menu page--active"><a class="flex-center-center dropdown"
+                        href="#">News
+                        <ion-icon class="dropdown-icon" name="chevron-down-outline"></ion-icon></a>
+                    <ul class="dropdown-container">
+                        <li class="dropdown-list"><a class="flex-center-center" href="#">World</a></li>
+                        <li class="dropdown-list"><a class="flex-center-center" href="#">Sport</a></li>
+                        <li class="dropdown-list"><a class="flex-center-center" href="#">Health</a></li>
+                        <li class="dropdown-list"><a class="flex-center-center" href="#">Business</a></li>
+                        <li class="dropdown-list"><a class="flex-center-center" href="#">Food</a></li>
+                        <li class="dropdown-list"><a class="flex-center-center" href="#">travel</a></li>
+                        <li class="dropdown-list"><a class="flex-center-center" href="#">Politic</a></li>
+                    </ul>
+                </li>
+                <div class="under-line"></div>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <div id="hero" class="hero flex padding">
+            <div class="filter">
+                <img src="./assets/img/hero/footbal.jpg" alt="Manchaster United Footbal Team">
+            </div>
+            <!-- hero content -->
+            <article class="content flex-bottom-between-column">
+                <div class="top-content flex-left-center-column">
+                    <h5 class="type-content flex-center-between">
+                        <ion-icon name="ellipse"></ion-icon> Hot Topic
+                    </h5>
+                    <h1 class="main-title">A new wave protests has just started in the Wembley Stadium</h1>
+                    <h5 class="uploaded-time">27 minutes ago <span class="type-region">World</span></h5>
+                </div>
+
+                <ul class="bottom-content flex">
+                    <li class="news flex-center-center">
+                        <img src="./assets/img/hero/breaking--news/food.jpg" alt="">
+                        <div class="text">
+                            <h4 class="uploaded-time">34 munutes ago, Healthy Food</h4>
+                            <p class="desc-breaking-news">A healthy diet is essential for good health and nutrition. It
+                                protects you against many chronic noncommunicable diseases, such as heart disease,
+                                diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and
+                                saturated and industrially-produced trans-fats, are essential for healthy diet.</p>
+                        </div>
+                    </li>
+                    <li class="news flex-center-center">
+                        <img src="./assets/img/hero/breaking--news/travel.jpg" alt="">
+                        <div class="text">
+                            <h4 class="uploaded-time">15 munutes ago, Bali Travel</h4>
+                            <p class="desc-breaking-news">There are many ways to enjoy Bali to its fullest. You can
+                                choose to explore numerous magnificent natural spots or partake in a myriad of thrilling
+                                activities available for you to try on the island. If you favor stress-relieving
+                                activities, then going to various recreational resorts, clubs, or wellness retreats
+                                might be the best way to enjoy Bali. Looking for the best spots in Bali that offer an
+                                ultimate stress-relieving experience to achieve better wellness? Go and pamper yourself
+                                with a rejuvenating treatment at one of six wonderful spa retreats found across the
+                                Island of Gods. Let’s check them out below!</p>
+                        </div>
+                    </li>
+                    <li class="news flex-center-center">
+                        <img src="./assets/img/hero/breaking--news/war.jpg" alt="">
+                        <div class="text">
+                            <h4 class="uploaded-time">Now, Ukraine Conflict</h4>
+                            <p class="desc-breaking-news">Russian forces have launched a major assault on Ukraine,
+                                firing missiles on cities and military targets. The invasion by land, air and sea began
+                                after a pre-dawn TV address where Russian President Vladimir Putin demanded that
+                                Ukraine's military lay down its arms.</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </article>
+            <!-- sidebar -->
+            <aside class="side-content flex-center-between-column">
+                <ul class="other-news">
+                    <li class="news flex-left-between-column">
+                        <h5 class="title-news">Sport News</h5>
+                        <p class="desc-news"> Kevin Magnussen may have seized the best opportunity to return to Formula
+                            1, even as the Danish ground jet pilot helped a lot to do so.</p>
+                        <h5 class="uploaded-time">1 hour ago at <a href="#" class="check-link">Check Here</a></h5>
+                    </li>
+                    <li class="news flex-left-between-column">
+                        <h5 class="title-news">Breaking News</h5>
+                        <p class="desc-news">President Biden spoke in an Alabama factory that built the Javelin missiles
+                            Ukrainian soldiers used against Russian tanks. Prime Minister Boris Johnson of Britain
+                            addressed members of Ukraine’s Parliament, extolling their “finest hour.”</p>
+                        <h5 class="uploaded-time">2 hour ago at <a href="#" class="check-link">Check Here</a></h5>
+                    </li>
+                    <li class="news flex-left-between-column">
+                        <h5 class="title-news">Politic News</h5>
+                        <p class="desc-news">Russian invaded Ukraine on 24 February 2022, marking a steep escalation of
+                            the Russo-Ukrainian War, which began in 2014 following the Ukrainian Revolution of Dignity.
+                            The invasion has caused Europe's largest refugee crisis since World War II, with more than
+                            5.5 million Ukrainians leaving the country[19] and a quarter of the population displaced.
+                        </p>
+                        <h5 class="uploaded-time">4 hour ago at <a href="#" class="check-link">Check Here</a></h5>
+                    </li>
+                    <li class="news flex-left-between-column">
+                        <h5 class="title-news">Breaking News</h5>
+                        <p class="desc-news">Millions of Indonesians were travelling to their hometowns on Thursday in
+                            an annual exodus from Jakarta and other major cities before the Idul Fitri holidays, a
+                            tradition that has been stalled</p>
+                        <h5 class="uploaded-time">5 hour ago at <a href="#" class="check-link">Check Here</a></h5>
+                    </li>
+                </ul>
+                <div class="write-news flex-left-bottom-column">
+                    <h5 class="title-news">Do you have your own news?</h5>
+                    <p>Write to us and we can publish it! <br> <a href="#">Go to form <ion-icon
+                                name="arrow-forward-outline"></ion-icon></a></p>
+                </div>
+            </aside>
+        </div>
+
+        <div class="news-content padding-all flex" id="news-content">
+            <article class="main-content">
+                <div class="content">
+                    <h3 class="title-content">Protesters have gathered at Wembley Stadium during the Indian Prime
+                        Minister's visit to Britain.</h3>
+                    <figure>
+                        <img src="./assets/img/news-content/Protesters.avif" alt="Protesters" class="img-content">
+                        <div class="caption padding-all">
+                            <h4 class="title-img">Protesters Waves At Wembley Stadium</h4>
+                            <p class="news-summary">Rahila Gupta, from Southall Black Sisters, said women from the
+                                organisation had joined the protests to object to a rise in religious fundamentalism in
+                                India. »It has a direct impact on freedom of women and their rights.</p>
+                        </div>
+                    </figure>
+                    <section class="desc-container">
+                        <p class="news-desc">Tens of thousands of Narendra Modi fans packed the stadium for a huge rally
+                            on
+                            Friday, as part of the first visit to the UK by an Indian Prime Minister for a decade.
+                            However,
+                            a crowd of protesters also gathered outside, voicing their opposition to human rights
+                            abuses in India.On Thursday crowds also gathered to protest at Downing Street as the Indian
+                            Prime Minister met for talks with David Cameron.</p>
+
+                        <p class="news-desc">Hundreds of protesters from across the UK have taken part in the
+                            demonstrations, and have been sharing photographs and messages on Twitter, using the
+                            hashtags #HerVoice and #ModiNotWelcome.
+
+                            Among the campaigners taking part in the protest at Wembley was Leslee Udwin, director
+                            of BBC documentary India’s Daughter, which was banned by the Indian government in March.
+
+                            She tweeted: "At Wembley Stadium with serious messages to PM Modi. Join with us in the
+                            protesting the ban on India's daughter."</p>
+
+                        <p class="news-desc">
+                            Rahila Gupta, from Southall Black Sisters, said women from the organisation had joined
+                            the protests to object to a rise in religious fundamentalism in India.
+
+                            She told the Standard: "We've been concerned about the rise of religious fundamentalism
+                            within our community.
+
+                            "It has a direct impact on freedom of women and their rights.
+
+                            "Our work is to help women who are escaping violence, and we've seen how conservative
+                            and religious values reaffirm restrictions on women, and make it hard for them to leave
+                            violent marriages, for example.
+                        </p>
+                        <p class="news-desc">
+                            "The rise of Hindu fundamentalism has a direct impact on our communities here, it
+                            narrows freedoms that they have.
+
+                            "We stand for secular values and work with women of all religions and none, they see
+                            that there is more that unites them than divides them.
+
+                            "Religion is often used as an excuse to perpetrate violence, and we felt it was really
+                            important to protest against Modi's visit."
+
+                            The huge rally came after Mr Modi lunched with the Queen at Buckingham Palace and
+                            attends further meetings with business leaders as part of a trade drive.
+                        </p>
+                    </section>
+
+                    <section class="side-ads-container landscape">
+                        <img src="./assets/img/ads/starbuck2.jpg" alt="ads">
+                    </section>
+
+                    <section class="desc-container">
+                        <p class="news-desc">After lunch, he was shown a selection of items from the Palace's
+                            collection, and exchanged gifts with the monarch.
+
+                            Mr Modi smiled as he was presented with a silver dish and signed photos of the Queen and the
+                            Duke of Edinburgh.
+                        </p>
+
+                        <p class="news-desc"> He gave the Queen photographs of her visit to India in 1961 and a gift box
+                            including
+                            Darjeeling tea from West Bengal, organic honey from Jammu and Kashmir, and silk Tanchoi
+                            scarves from his parliamentary constituency of Varanasi.</p>
+                    </section>
+
+                </div>
+            </article>
+            <aside class="side-content">
+                <ul class="same-news padding">
+                    <h3 class="title-content">Similar New News</h3>
+                    <li class="news flex">
+                        <img src="./assets/img/news-content/same-news/manchaster-united.jpg" alt="ManchasterUnited">
+                        <div class="text-news flex-left-center-column">
+                            <h5 class="title-same-news">Ronaldo & Fernandes seal vital win over the Gunners</h5>
+                            <h5 class="uploaded-time">1 hour ago by <a href="#" class="check-link">Check here</a></h5>
+                        </div>
+                    </li>
+                    <li class="news flex">
+                        <img src="./assets/img/news-content/same-news/manchaster-united-win.jpg" alt="ManchasterUnited">
+                        <div class="text-news flex-left-center-column">
+                            <h5 class="title-same-news">Don't expect Manchester United to quickly achieve achievements
+                            </h5>
+                            <h5 class="uploaded-time">2 hour ago by <a href="#" class="check-link">Check here</a></h5>
+                        </div>
+                    </li>
+                    <li class="news flex">
+                        <img src="./assets/img/news-content/same-news/manchaster-united-stadium.jpg"
+                            alt="ManchasterUnited">
+                        <div class="text-news flex-left-center-column">
+                            <h5 class="title-same-news">Wembley Becomes Tottenham Hotspur's Headquarters in the
+                                Champions League</h5>
+                            <h5 class="uploaded-time">9 hour ago by <a href="#" class="check-link">Check here</a></h5>
+                        </div>
+                    </li>
+                    <li class="news flex">
+                        <img src="./assets/img/news-content/same-news/manchaster-united-lose.jpg"
+                            alt="ManchasterUnited">
+                        <div class="text-news flex-left-center-column">
+                            <h5 class="title-same-news">Five things we learned as Manchester United lose 2-0 to
+                                Manchester City</h5>
+                            <h5 class="uploaded-time">12 hour ago by <a href="#" class="check-link">Check here</a></h5>
+                        </div>
+                    </li>
+
+                    <li class="news flex">
+                        <img src="./assets/img/news-content/same-news/manchaster-united-vs-chelsea.jpg"
+                            alt="ManchasterUnited">
+                        <div class="text-news flex-left-center-column">
+                            <h5 class="title-same-news">MU vs Chelsea results in the Premier League: Ronaldo & De Gea
+                                carry the burden of the Red Devils</h5>
+                            <h5 class="uploaded-time">12 hour ago by <a href="#" class="check-link">Check here</a></h5>
+                        </div>
+                    </li>
+                </ul>
+                <article class="side-ads-container padding">
+                    <video width="100%" src="./assets/img/ads/Cheetah Ads.mp4" autoplay muted loop></video>
+                </article>
+
+            </aside>
+        </div>
+
+        <div class="about-project padding-all flex">
+            <article class="project-desc">
+                <h1 class="title">News Website Project</h1>
+                <p style="text-align: justify; margin:2% 0;">Saat ini saya membuat website berita, dalam project kali
+                    ini saya
+                    membuat website bagian detail
+                    berita dari web.
+                    Jika dialurkan, dalam menu navigation terdapat menu news. Dimana dalam menu tersebut akan
+                    terdapat
+                    berbagai jenis berita.
+                    Saat user memilih salah satu jenis berita, user akan memilih berita tertentu. Bagian tersebut
+                    adalah
+                    web yang saya buat kali ini.
+                    dimana menjelaskan salah satu berita pilihan user.
+                    Misal : jenis berita olahraga &rarr; "MU Jadi juara tahu ini".
+                </p>
+                <p style="text-align: justify; margin:2% 0;">Saya juga menambahkan beberapa info
+                    tambahan
+                    dihero section, yaitu info cuaca, jam, dan beberapa berta utama lainnya agar pembaca bisa mengetahui
+                    berita tertentu yang
+                    sedang trend dengan tampilan yang tetap mengutamakan point penjelasan. kemudian di bagian deskripsi
+                    juga diberikan bagaian iklan yang berupa
+                    video dan image.
+                    web ini sudah menggunakan javascript dalam layout resp[onsive dengan memanfaatkan global class dan
+                    DOM, kemudian
+                    memiliki maksimum kata dalam section tertentu agar bisa melimit data yang direquest dari data base
+                    atau API. kemudian web ini juga
+                    sudah memiliki fitur dropdown dan click pada setiap elementnya dibagian navigation utama dengan DOM
+                    dan loopong javascript,
+                    karena fitur event border saat diclick akan hilang karena dampak dari tah a yang reload, maka nanti
+                    akan ditambah setTimeOut() untuk memunculkan event border
+                    sebelum pindah halaman</p>
+
+                <section>
+                    <h3 class="title">
+                        <ion-icon name="hammer"></ion-icon> Make With
+                    </h3>
+                    <ul class="flex-center-between">
+                        <li class="flex-center-center">
+                            <ion-icon class="html" name="logo-html5"></ion-icon> HTML
+                        </li>
+                        <li class="flex-center-center">
+                            <ion-icon class="css" name="logo-css3"></ion-icon> CSS
+                        </li>
+                        <li class="flex-center-center">
+                            <ion-icon class="js" name="logo-javascript"></ion-icon> JavaScript
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3 class="title">
+                        <ion-icon name="hourglass"></ion-icon> Project Proses
+                    </h3>
+
+                    <div class="contaner-cards">
+                        <div class="card">
+                            <p class="date-start blue">Start : 30 April 2022</p>
+                            <h4 class="title-card">Web Designing</h4>
+                            <p>Tahap pembuatan antar muka web mulai dari halaman utama hingga detail.
+                            </p>
+                            <label for="progerss">Project progress:</label>
+                            <div class="progress-bar"></div>
+                            <div class="languages flex-left-center">
+                                <ion-icon class="figma" name="logo-figma"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p class="date-start orange">Start : 1 May 2022</p>
+                            <h4 class="title-card">Front-End Web</h4>
+                            <p>Tahap pembuatan antar muka web mulai dari halaman utama hingga detail halaman.
+                            </p>
+                            <label for="progerss">Project progress:</label>
+                            <div class="progress-bar"></div>
+                            <div class="languages flex-left-center">
+                                <ion-icon class="vuejs" name="logo-vue"></ion-icon>
+                                <ion-icon class="html" name="logo-html5"></ion-icon>
+                                <ion-icon class="css" name="logo-css3"></ion-icon>
+                                <ion-icon class="js" name="logo-javascript"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p class="date-start green">Start : -- --- ----</p>
+                            <h4 class="title-card">Back-End Web</h4>
+                            <p>Pembuatan server dan connect database
+                            </p>
+                            <label for="progerss">Project progress:</label>
+                            <div class="progress-bar"></div>
+                            <div class="languages flex-left-center">
+                                <ion-icon class="nodejs" name="logo-nodejs"></ion-icon>
+                                <ion-icon class="js" name="logo-javascript"></ion-icon>
+                                <ion-icon class="npm" name="logo-npm"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p class="date-start purple">Start : -- --- ----</p>
+                            <h4 class="title-card">DataBase</h4>
+                            <p>menyimpan info pengguna ditambah dengan data berita kesukaan
+                            </p>
+                            <label for="progerss">Project progress:</label>
+                            <div class="progress-bar"></div>
+                            <div class="languages flex-left-center">
+                                <ion-icon class="cloud" name="cloud"></ion-icon>
+                                <ion-icon class="monggodb" name="leaf"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="title">
+                        <ion-icon name="warning-outline"></ion-icon> Project Problem
+                    </h3>
+                    <p style="text-align: justify; margin:2% 0;">Saat digunakan dimode landscape smartphone, navigation
+                        terlalu menutupi
+                        content yang tersedia, namun jika navigation dikecilkan akan berpengaruh pada mode dekstop
+                        dengan lebar layar yang sama. <a target="_blank" style="color:#000; font-weight:bold;"
+                            href="https://www.webmobilefirst.com/en/">Mobile Simulator</a>
+                    </p>
+
+
+                </section>
+                <section>
+
+                    <a class="link-project flex-center-left" target="_blank"
+                        href="https://github.com/rieckypoerwadiredja/onpoint_news">
+                        <ion-icon name="logo-github"></ion-icon> OnPoint News
+                    </a>
+                </section>
+            </article>
+            <aside class="profie-container">
+                <section class="user-profile flex-center-between-column padding">
+                    <img src="./assets/img/tambahan-profile/profile.jpg" alt="Riecky Image">
+                    <h1 class="title-name">Riecky Syarief Poerwadiredja</h1>
+                    <p class="desc">Enterpreneur | Student | Web Developer</p>
+                    <div class="sosmed-container flex-center-evenly">
+                        <a href="https://github.com/rieckypoerwadiredja" class="sosmed" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a href="https://www.linkedin.com/in/riecky-syarief-poerwadiredja-b61310234/" class="sosmed"
+                            target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a href="#" class="sosmed" target="_blank">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </div>
+                </section>
+            </aside>
+        </div>
+
+    </main>
+
+    <footer class="footer flex-column" id="footer">
+        <div class="top-footer flex-center-center-column">
+            <h3 class="title-content">Subscribe to our newslatter</h3>
+            <p>Stay up to date with our new product. Subscribe now!</p>
+            <button class="btn-primary">Subscribe</button>
+        </div>
+        <div class="bottom-footer flex padding">
+            <section class="section left flex-left-between-column padding-all">
+                <div class="app-section container-1 flex-left-evenly-column">
+                    <h3 class="title-content">Download Now</h3>
+                    <div class="app conatainer-2 flex">
+                        <button class="btn-secondary flex-center-center">
+                            <ion-icon name="logo-apple"></ion-icon> App Store
+                        </button>
+                        <button class="btn-secondary flex-center-center">
+                            <ion-icon name="logo-google-playstore"></ion-icon> Play Store
+                        </button>
+                    </div>
+                </div>
+
+                <ul class="lists flex">
+                    <li class="list">
+                        <a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <ion-icon name="logo-twitch"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a></li>
+                </ul>
+            </section>
+            <section class="section right flex-center-evenly padding-all">
+
+                <ul class="lists flex-column">
+                    <li class="list title-list"><a href="#">Product</a></li>
+                    <li class="list"><a href="#">Trend News</a></li>
+                    <li class="list"><a href="#">Hot News</a></li>
+                    <li class="list"><a href="#">Blog</a></li>
+                    <li class="list"><a href="#">Adsense</a></li>
+                </ul>
+
+                <ul class="lists flex-column">
+                    <li class="list title-list"><a href="#">Menu</a></li>
+                    <li class="list"><a href="#">How it work</a></li>
+                    <li class="list"><a href="#">Make News</a></li>
+                    <li class="list"><a href="#">About Us</a></li>
+                    <li class="list"><a href="#">Waitlist</a></li>
+                </ul>
+
+                <ul class="lists flex-column">
+                    <li class="list title-list"><a href="#">Information</a></li>
+                    <li class="list"><a href="#">Carrier</a></li>
+                    <li class="list"><a href="#">Contact Us</a></li>
+                    <li class="list"><a href="#">About</a></li>
+                    <li class="list"><a href="#">Afiliates</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/main-nav.js"></script>
+</body>
+
+</html>
