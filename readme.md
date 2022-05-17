@@ -94,6 +94,13 @@ However, web scraping also has drawbacks, I think web scraping results in the da
 
 <br>
 
+#### Run Program
+```
+node index
+```
+
+<br>
+
 [<img align="left" src="https://img.shields.io/static/v1.svg?label=exercise&message=Web Scraping&color=green"/>](./Web-Scraping)
 
 <br>
@@ -104,7 +111,7 @@ However, web scraping also has drawbacks, I think web scraping results in the da
 <hr>
 <br>
 
-right after I finished my mid-semester exam, I continued my learning by attending a Bootcamp from the Indonesian tourism ministry. in Bootcamp this time I learned the basics of making a website.
+Right after I finished my mid-semester exam, I continued my learning by attending a Bootcamp from the Indonesian tourism ministry. in Bootcamp this time I learned the basics of making a website.
 
 even though it's very simple because Bootcamp is intended for people who have never coded the web before, I still get new knowledge. it's a nice experience to be able to know web creation from another side that hasn't been explored before.
 
@@ -120,8 +127,7 @@ I have an idea to continue the project by creating web news with API by utilizin
 
 <br>
 
-* [csv-writer](https://www.npmjs.com/package/csv-writer)
-* [puppeteer](https://www.npmjs.com/package/puppeteer)
+[Dicoding Course](https://www.dicoding.com/academies/123)
 
 <br>
 
