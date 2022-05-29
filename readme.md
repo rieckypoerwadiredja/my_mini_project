@@ -136,3 +136,35 @@ I have an idea to continue the project by creating web news with API by utilizin
 <br>
 
 [<img align="left" src="https://img.shields.io/static/v1.svg?label=Real Project&message=On Point News&color=green"/>](https://github.com/rieckypoerwadiredja/onpoint_news)
+
+[<img align="left" src="https://img.shields.io/static/v1.svg?label=bootscamp&message=Web Storage&color=green"/>](./calculator-web-storage/)
+
+<br>
+<br>
+
+## Project UX/UI Bootscamp (21 May 2022 & 25 May 2022)
+
+<hr>
+<br>
+
+I am currently participating in internal training events within my university organization. I attended UX UI training from BNCC. I am very enthusiastic about this event, after studying web development from the front end for a long time, this time I started to see web development from a design perspective.
+
+There are many lessons that I can learn from this event, not only in making designs in Figma. I also understand how teams work with design, and what UX UI things do in a company. This helps me if one day I will do teamwork with the design department.
+
+Then I also learned how to do a good and correct design using Figma. it may look simple, but doing design is not just drawing or giving color. there are several stages that the designers did before working [CLICK HERE](./Web__Design/readme.md). Brother Mento also shared some tips and tricks in using the design, ranging from simple logic to the tools used.
+
+<br>
+
+### Make with :
+
+* Figma
+* [image source](https://undraw.co/)
+<br>
+<br>
+
+[UX/UI Course from BNCC](https://bncc.net/)
+
+<br>
+
+[<img align="left" src="https://img.shields.io/static/v1.svg?label=bootscamp&message=Web Design&color=green"/>](./Web__Design/)
+
