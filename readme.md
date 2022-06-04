@@ -189,6 +189,12 @@ But that doesn't mean I won't study framework work other than vue.JS, in the fut
 
 My next stage is to complete another project by utilizing the vue.JS framework.
 
+In this project, I also use the JSON server as a substitute for the API that is commonly used. You could say JSON server is a Fake API used by frontend developers to check the running of the program.
+
+JSON server has the same features as the API in general, where there are POST, GET, PUT, and DELETE methods. but JSON-Server can't be uploaded like a normal API project. If you want to deploy the web with JSON-Server, you can only use the GET method.
+
+In my opinion, even though the JSON-API has limitations, it has answered the problems of front-end developers together with the Design team in running the Web, if using the JSON-API we can save prototype time for the interface so that designers can assess prototypes easily without having to proceed to the next step. back-end creation
+
 <br>
 
 ### Make with :
