@@ -1,0 +1,3 @@
+[submodule "kulineran"]
+	path = kulineran
+	url = https://github.com/rieckypoerwadiredja/kulineran.git
