@@ -172,4 +172,36 @@ Then I also learned how to do a good and correct design using Figma. it may look
 <br>
 <br>
 
+## Learn Framework Vue.JS (4 June 2022)
 
+<hr>
+<br>
+
+finally, now I'm starting to learn the framework to make it easier for me to create projects. The framework I chose this time was Vue.JS. the reasons why I chose Vue.JS :
+
+* The size is quite small for a framework, which is only 33.30KB, if I look at the various information I can get react and angular has a much larger size.
+
+* Vue.JS has an HTML-based "component" feature, where it can create 1 element that can be called/used in any part of the page many times but with different Data Models.
+
+* Then no less important is that Vue is an easy-to-learn framework. for example when compared Angular which has to learn a little about Typescript and React which learns JSX.
+
+But that doesn't mean I won't study framework work other than vue.JS, in the future, I will certainly study other frameworks. ~ stay tune :)
+
+My next stage is to complete another project by utilizing the vue.JS framework.
+
+<br>
+
+### Make with :
+
+* [Vue.JS](https://vuejs.org/)
+* CSS
+* Bootstrap
+* JSON-Server
+
+<br>
+
+[Kulineran](https://kulineran.vercel.app/)
+
+<br>
+
+[<img align="left" src="https://img.shields.io/static/v1.svg?label=project&message=Vue.JS&color=green"/>](./calculator-web-storage/)
